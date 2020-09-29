@@ -1,0 +1,120 @@
+
+@-webkit-keyframes Skm{
+	0%{margin-left: 0px;	
+	}
+	
+	50%{
+		margin-left: 100px;
+	 }
+	100%{ margin-left: 0px;
+		
+
+	}
+} 
+
+@-webkit-keyframes Skm2{
+	0%{margin-top: 100px;	
+	}
+	
+	50%{
+		margin-top: 0px;
+	 }
+	100%{ margin-top: 100px;
+		
+
+	}
+}
+@-webkit-keyframes Skm3{
+	0%{margin-top: 0px;	
+	}
+	
+	50%{
+		margin-top: 0px;
+	 }
+	100%{ margin-top: 0px;
+		
+
+	}
+}
+@-webkit-keyframes Skm4{
+	0%{margin-left: 0px;margin-top: 50px;	
+	}
+	
+	50%{
+		margin-left: 50px;margin-top: 0px;
+	 }
+	75%{
+		margin-left: 0px;margin-top: 0px;
+	 }
+
+	100%{margin-left: 0px;margin-top: 50px;	
+	}
+} 
+
+
+.box {width: 100px;	height: 100px; background-color: #4affa8;
+	animation-name: Skm; 
+	animation-duration: 3s;
+	animation-iteration-count: infinite; 
+
+	transition-property: all;
+	transition-duration: 1s;
+
+}
+.box:hover {background-color: #4a6cff;
+transform:rotate(360deg);
+}
+
+.box2 {width: 100px;	height: 100px; background-color: yellow;
+	animation-name: Skm4; 
+	animation-duration: 3s;
+	animation-iteration-count: infinite; 
+
+	transition-property: all;
+	transition-duration: 1s;
+
+}
+.box2:hover {background-color: #4a6cff;
+transform:rotate(360deg);
+}
+
+
+
+.box3 {width: 100px;	height: 100px; background-color: #ff3636;
+	animation-name: Skm2; 
+	animation-duration: 3s;
+	animation-iteration-count: infinite; 
+
+	transition-property: all;
+	transition-duration: 1s;
+
+}
+.box3:hover {background-color: #4a6cff;
+transform:rotate(360deg);
+}
+
+.box4 {width: 100px;	height: 100px; background-color: yellow;
+	animation-name: Skm4; 
+	animation-duration: 3s;
+	animation-iteration-count: infinite; 
+
+	transition-property: all;
+	transition-duration: 1s;
+
+}
+.box4:hover {background-color: #4a6cff;
+transform:rotate(360deg);
+}
+
+.box5 {width: 100px;	height: 100px; background-color: #4affa8;
+	animation-name: Skm3; 
+	animation-duration: 3s;
+	animation-iteration-count: infinite; 
+
+	transition-property: all;
+	transition-duration: 1s;
+
+}
+.box5:hover {background-color: #4a6cff;
+transform:rotate(360deg);
+}
